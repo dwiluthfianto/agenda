@@ -5,7 +5,7 @@ module.exports = function override(config) {
     '@assets': 'src/assets',
     '@features': 'src/features',
     '@pages': 'src/pages',
-    '@shared': 'src/shared'
+    '@redux': 'src/redux'
   })(config);
 
   return config;
